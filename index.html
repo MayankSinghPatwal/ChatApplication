@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Static Chat UI</title>
+    <!-- //cient aur server ko jodne ke liye -->
+  <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+  <script defer src="js/client.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <header>Chat App</header>
+    <div class="messagecontainer">
+      <!-- <div class="message left">Hi! How are you?</div>
+      <div class="message right">I'm good, thanks! You?</div>
+      <div class="message left">Doing great!</div> -->
+    </div>
+    <div class="chat-input">
+        <form id="send-container">
+      <input type="text" placeholder="Type a message..."  id="messageInp">
+      <!-- <input type="file" id="imageInp" accept="image/*">
+       <label for="imageInp" id="image-icon">
+       <img src="img/photo-icon.png" alt="Send Image" width="24" height="24"> -->
+       </label>
+      <button>Send</button>
+      </form>
+    </div>
+  </div>
+     
+</body>
+</html>
