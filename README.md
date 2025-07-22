@@ -14,9 +14,9 @@ Here are some snapshots of the application in action:
 
 👥 Before the Chat Room Interface your username is being asked
 <img src="./assets-for-readme/chat1.png" width="600"/>
-📱 Real-Time Messaging
-<img src="./assets-for-readme/chat2.png" width="600"/>
 🧑‍🤝‍🧑 Join Notification
+<img src="./assets-for-readme/chat2.png" width="600"/>
+📱 Real-Time Messaging 
 <img src="./assets-for-readme/chat3.png" width="600"/>
 💬 Multiple Users Chatting
 <img src="./assets-for-readme/chat4.png" width="600"/>
